@@ -1,2 +1,6 @@
 此数据集为凯斯西储大学轴承数据集，每个文件夹下保存的是不同马力下的数据。<br>
-使用data_loader.load_data，会将数据文件<b>'all_data.mat'</b>读取为224*224的矩阵，并转为torch的dataloader，适合于resnet18的输入。
+使用data_loader.load_data，会将数据文件<b>'all_data.mat'</b>读取为224*224的矩阵，并转为torch的dataloader，适合于resnet18的输入。<br>
+如果使用此数据，则整个数据集被分成10个类别。<br>
+<br>
+如果使用<b>'凯斯西储大学数据'</b>目录里的数据，整个数据集被分成4类：内圈故障、外圈故障、滚动体故障、正常。<br>
+加载时，请使用tool里的load.load_data。
